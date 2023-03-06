@@ -1,0 +1,30 @@
+@import url('reset.css');
+@import url('general.css');
+@import url('font.css');
+@import url('header.css');
+@import url('first-widget.css');
+@import url('second-widget.css');
+@import url('third-widget.css');
+@import url('fourth-widget.css');
+@import url('fifth-widget.css');
+@import url('sixth-widget.css');
+@import url('seventh-widget.css');
+@import url('eighth-widget.css');
+@import url('form-widget.css');
+@import url('footer.css');
+@import url('burger.css');
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+}
+.star__img {
+  fill: #FFA858;
+	transition: 0.3s;
+  cursor:pointer;
+}
+
+.star__img:hover {
+  fill:rgb(253, 212, 100);
+}

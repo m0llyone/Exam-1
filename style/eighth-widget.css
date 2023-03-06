@@ -1,0 +1,72 @@
+.eighth-widget {
+background-color:#EFF6F1;
+}
+
+.eighth__wrapper {
+  padding: 140px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.eighth__eat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 460px;
+  max-width: 100%;
+  min-height: 580px;
+}
+
+.eighth__text {
+  font-family: 'roboto-weight';
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  padding: 30px 79px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.eighth__eat--juice {
+  background-image: url('../img/fruit-juice.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.eighth__eat--food {
+  background-image: url('../img/organic-food.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.eighth__eat--cookies {
+  background-image: url('../img/nuts-cookies.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.eighth__text:hover {
+  background-color: rgb(238, 206, 145);
+  color: white;
+}
+
+@media (max-width: 525px) {
+  .eighth__wrapper {
+    padding: 100px 20px;
+  }
+
+  .eighth__text {
+    font-size: 20px;
+    padding: 30px 50px;
+  }
+}

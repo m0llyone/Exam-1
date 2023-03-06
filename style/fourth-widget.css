@@ -1,0 +1,129 @@
+.fourth-widget__wrapper {
+  padding: 122px 30px 140px 30px;
+}
+.fourth-widget__title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.items {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.items__item {
+  background: #F9F8F8;
+  border-radius: 30px;
+  padding: 29px 29px 37px 30px;
+  transition: .5s;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.item__kind {
+  max-width: 118px;
+  min-height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #274C5B;
+  border-radius: 8px;
+  font-family: 'opensans-weight';
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+}
+
+.item__kind--align {
+  max-width: 72px;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.item__name {
+  font-family: 'roboto';
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  border-bottom : 1px solid #D4D4D4;
+}
+
+.item__image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.item__image img {
+  max-width: 100%;
+}
+
+.item__name {
+  min-height: 46px;
+}
+
+.item__price {
+  font-family: 'opensans-weight';
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+
+.item__crossout {
+  font-family: 'Open Sans';
+  font-size: 17px;
+  text-decoration-line: line-through;
+  color: #B8B8B8;
+  padding-right: 10px;
+}
+
+.item__low-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.items__item:hover {
+  transform: scale(0.95);
+  box-shadow: 0px 13px 18px rgb(0 0 0 / 15%), 0px 11px 55px rgb(0 0 0 / 7%);
+}
+
+@media (max-width: 500px) {
+  .items {
+    margin: 0 20px;
+  }
+
+  .item__name {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .item__kind {
+    display: none;
+  }
+
+  .item__kind--align {
+    max-width: 60px;
+  }
+
+  .item__price, .item__crossout {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .item__low-part {
+    justify-content: center;
+  }
+}

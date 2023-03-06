@@ -1,0 +1,170 @@
+h1 {
+  font-family: 'roboto-weight';
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+
+h2 {
+  font-family: 'roboto-weight';
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 0.36px;
+  max-width: 325px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: 'roboto-weight';
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+}
+
+.h3--color {
+  color: white;
+}
+
+.h3--indent {
+  margin-bottom: 22px;
+}
+
+h4 {
+  font-family: 'Yellowtail';
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7EB693;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+}
+
+.p--align {
+  text-align: center;
+}
+
+.button {
+  width: calc(220px - 43px);
+  height: calc(80px - 44px);
+  background: #EFD372;
+  border: 1px solid #EFD372;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 9px 22px 33px;
+  cursor: pointer;
+  transition:  .4s;
+}
+
+.button:hover {
+  background-color: rgb(246, 232, 102);
+}
+
+.button__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #335B6B;
+  border-radius: 50px;
+  width: 38px;
+  height: 38px;
+}
+
+.button__text {
+  font-family: 'roboto';
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+}
+
+.button__text--color {
+  color: white;
+  letter-spacing: 0.6px;
+}
+
+.button--width {
+  width: calc(220px - 63px);
+}
+
+.button--border {
+  border: 1px solid #274C5B;
+}
+
+.button--size {
+  width: calc(267px - 43px );
+}
+
+.color-white {
+  color: white;
+}
+
+.button--color {
+  background-color: #274C5B;
+}
+
+.button--color:hover {
+  background-color: #335B6B;
+  border: 1px solid #335B6B;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  h2 {
+    font-size: 35px;
+    line-height: 30px;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 28px;
+  }
+
+  h4 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .button {
+    width: calc(180px - 43px);
+    height: calc(60px - 44px);
+}
+
+.button__text {
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+}
+}
+
+@media (max-width: 420px) {
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 19px;
+  }
+}

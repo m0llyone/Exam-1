@@ -1,0 +1,76 @@
+.header__wrapper {
+  padding: 40px 30px;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  column-gap: 40px
+}
+
+.header__logo {
+  margin-right: 80px;
+}
+
+.header__item {
+  font-family: 'roboto';
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  transition: .4s;
+}
+
+.header__button {
+  width: 160px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  background-color: white;
+  border: 1px solid #D4D4D4;
+  border-radius: 33px;
+}
+
+.header__cart {
+  background: #274C5B;
+  border-radius: 100px;
+  width: 56px;
+  height: 56px;
+  margin-left: 10px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.header__cart:hover {
+  background-color: #335B6B;
+}
+
+.header__cart-image {
+  padding: 16px 15px;
+}
+
+.header__cart-text {
+  font-family: 'roboto';
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+
+.header__item--indent {
+  padding-left: 20px;
+}
+
+.header__item:hover {
+  color: #7EB693;
+}
+
+@media (max-width:1100px) {
+
+}

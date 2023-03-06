@@ -1,0 +1,23 @@
+.sixth-widget {
+  background-color: #274C5B;
+}
+
+.sixth-widget__wrapper {
+  padding: 140px 30px;
+}
+
+.sixth-widget__up-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 950px) {
+  .sixth-widget__up-part {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 30px ;
+  }
+}

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/roboto-v30-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'roboto-weight';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/roboto-v30-latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/yellowtail-v18-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/open-sans-v34-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'opensans-weight';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/open-sans-v34-latin-700.woff') format('woff');
+}

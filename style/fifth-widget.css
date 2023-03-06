@@ -1,0 +1,136 @@
+.fifth-widget {
+  background-image: url('../img/fifth-widget.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.fifth-widget__wrapper {
+  padding: 130px 168px 150px ;
+}
+
+.fifth-widget__title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.fifth-widget__text {
+  margin: 30px 0 23px;
+}
+
+.fifth-widget__women-img {
+  margin-bottom: 20px;
+}
+
+.fifth-widget__name {
+  font-family: 'roboto-weight';
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+
+.fifth-widget__job {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #525C60;
+}
+
+.fifth-widget__article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifth-widget__line {
+  background: #E0E0E0;
+  min-height: 2px;
+  max-width: 965px;
+  margin: 95px 68px 100px;
+}
+
+.fifth-widget__about {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 26px;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+.fifth-widget__about-subtext {
+  font-family: 'opensans-weight';
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+
+.fifth-widget__circle {
+  height: 245px;
+  width: 245px;
+  background: #F1F1F1;
+  border: 6px solid #7EB693;
+  border-radius: 200px;
+}
+
+.fifth-widget__about-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 5px solid #FFFFFF;
+  border-radius: 200px;
+  box-sizing: border-box;
+  height: 245px;
+  max-width: 245px;
+  font-family: 'roboto-weight';
+  font-size: 42px;
+  line-height: 55px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+}
+
+@media (max-width: 715px) {
+  .fifth-widget__wrapper {
+    padding: 100px ;
+  }
+
+  .fifth-widget__about-subtext {
+    font-size: 14px;
+  }
+  .fifth-widget__about-text {
+    font-size: 30px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .fifth-widget__circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .star__img {
+    width: 14px;
+    height: 13px;
+  }
+
+  .fifth-widget__name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:385px) {
+  .fifth-widget__wrapper {
+    padding: 90px 50px ;
+  }
+}
